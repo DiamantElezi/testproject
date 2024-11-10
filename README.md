@@ -38,12 +38,12 @@ Note this db configurations use only if you use ddev if not you can add it as th
 ```bash
 APP_URL = testproject.ddev.site  // or if you added other name write as the url u need
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=employee_management
-DB_USERNAME=root
-DB_PASSWORD=yourpassword
+DB_CONNECTION="mysql"
+DB_HOST="db"
+DB_PORT="3306"
+DB_DATABASE="db"
+DB_USERNAME="db"
+DB_PASSWORD="db"
 ```
 ### Step 4: Set Up the Database
 ```bash
